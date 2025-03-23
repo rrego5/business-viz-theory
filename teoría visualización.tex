@@ -1,0 +1,107 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[backend=biber, style=apa]{biblatex}
+\addbibresource{references.bib}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Fundamentos teóricos para el estudio de los elementos visuales en visualizaciones de negocio}
+
+\begin{document}
+
+\maketitle
+\onehalfspacing
+
+\section{Introducción}
+En los últimos años, el diseño de visualizaciones de negocio ha ganado una gran relevancia debido a su impacto en la comprensión y memoria del usuario. Los marcos teóricos provenientes de la psicología cognitiva y la cognición visual proporcionan una base sólida para entender cómo las personas procesan la información visual, en especial en relación a las visualizaciones en el entorno empresarial y de otras organizaciones en las que la toma de decisiones se basa en gran mediad en la visualización de datos. Este documento resume las principales teorías que sustentan el estudio de cómo elementos como el color, la forma, la posición y el contenido afectan la comprensión y el recuerdo en visualizaciones orientadas al negocio. En especial, se abordan conceptos como la teoría del doble canal, los principios de la Gestalt, el procesamiento pre-atencional, la búsqueda visual y el seguimiento ocular. También es importante reseñar que la toma de decisiones basada en visualizaciones de datos es un campo de estudio en constante evolución, por lo que es fundamental estar al tanto de las investigaciones más recientes en el área.
+
+\section{Teoría del Doble Canal}
+
+\subsection{Fundamentos teóricos}
+Propuesta por Paivio (1986), la teoría del doble canal sostiene que los seres humanos procesan y almacenan información utilizando dos sistemas cognitivos distintos: uno verbal y otro visual. Esta dualidad permite una codificación más rica, redundante y eficaz del contenido, lo que se traduce en una mayor comprensión y recuerdo \parencite{paivio1986}.
+
+\subsection{Aplicación a la visualización de datos}
+En el contexto de la visualización de datos, esta teoría respalda el uso combinado de gráficos y texto explicativo. Por ejemplo, un gráfico de barras acompañado por etiquetas textuales claras y descripciones concisas permite al usuario integrar información visual y verbal simultáneamente, lo cual refuerza el procesamiento cognitivo.
+
+\subsection{Evidencia empírica}
+Estudios previos han demostrado que la presentación combinada de información en formatos verbal y visual mejora significativamente la comprensión y facilita la toma de decisiones. Por ejemplo, \textcite{brunye2006} encontraron que cuando los usuarios procesan información presentada en gráficos interactivos junto con explicaciones escritas, retienen mejor los datos y toman decisiones más precisas.
+
+\section{Principios de la Gestalt}
+
+\subsection{Fundamentos teóricos}
+La teoría de la Gestalt, desarrollada por psicólogos como Max Wertheimer, Wolfgang Köhler y Kurt Koffka, se centra en cómo las personas perciben patrones y organizan estímulos visuales en estructuras coherentes. Su principio fundamental establece que “el todo es más que la suma de sus partes”, es decir, la mente tiende a percibir conjuntos organizados antes que elementos individuales. Entre los principios más conocidos se encuentran la proximidad, la similitud, la continuidad, el cierre y la figura-fondo \parencite{koffka1935}.
+
+\subsection{Aplicación en visualización de datos}
+Estos principios son fundamentales en el diseño de visualizaciones eficaces. Por ejemplo, el principio de proximidad se aplica cuando agrupamos elementos relacionados en un gráfico para que el usuario los perciba como un conjunto coherente. La similitud de color o forma ayuda a codificar categorías de datos. El cierre puede aprovecharse para representar visualmente contenedores o áreas sin bordes explícitos. Colin Ware \parencite{ware2012} discute extensamente cómo estos principios perceptivos mejoran la lectura visual en contextos de análisis de datos.
+
+\subsection{Evidencia empírica}
+Huang, Eades y Hong \parencite{huang2009} investigaron cómo la complejidad visual basada en la estructura de los gráficos afecta la carga cognitiva, encontrando que los diseños alineados con los principios de Gestalt mejoran tanto la precisión como la velocidad en tareas analíticas. Por otro lado, Chalbi et al. \parencite{chalbi2019} demostraron que el principio de destino común (common fate), que sugiere que los elementos que se mueven juntos se perciben como relacionados, mejora la comprensión de transiciones animadas en visualizaciones dinámicas.
+
+\subsection{Implicaciones para la toma de decisiones en entornos de negocio}
+Al aplicar los principios de la Gestalt en visualizaciones empresariales—como dashboards o informes interactivos—es posible reducir la carga cognitiva, facilitar la identificación de patrones y acelerar la toma de decisiones. Un diseño que respete estas leyes perceptuales favorece la claridad, la coherencia visual y, en consecuencia, la eficiencia con la que los usuarios extraen información crítica para la acción.
+
+\section{Procesamiento preatencional}
+
+\subsection{Fundamentos teóricos}
+El procesamiento preatencional se refiere a la capacidad del sistema visual humano para detectar ciertos atributos visuales de forma rápida, automática y sin necesidad de atención consciente focalizada. Estas propiedades incluyen el color, la forma, la orientación, la longitud, el tamaño y el movimiento. La psicología de la percepción ha demostrado que este tipo de procesamiento ocurre en los primeros 200 milisegundos de exposición al estímulo visual \parencite{wolfe1998}.
+
+\subsection{Aplicación en visualización de datos}
+En el diseño de visualizaciones, el uso de atributos preatencionales permite destacar información clave de forma inmediata. Por ejemplo, el uso de un color llamativo para señalar una alerta en un gráfico, o un tamaño de fuente mayor para valores atípicos en una tabla, orienta automáticamente la atención del usuario hacia esos elementos sin necesidad de exploración consciente. Healey y Enns \parencite{healey1999} analizaron cómo estas características pueden combinarse en mapas perceptuales para construir visualizaciones efectivas.
+
+\subsection{Evidencia empírica}
+Numerosos estudios han confirmado que los elementos visuales que aprovechan el procesamiento preatencional mejoran la velocidad de exploración, detección de anomalías y comprensión general de los datos. Ware \parencite{ware2004} presentó pruebas experimentales que muestran cómo ciertos canales visuales (como el color y el movimiento) son más efectivos que otros (como la forma o la textura) en la tarea de dirigir la atención en visualizaciones complejas. Estas investigaciones han sido fundamentales para establecer principios perceptivos en el campo de la visualización.
+
+\subsection{Implicaciones para la toma de decisiones en entornos de negocio}
+En contextos empresariales, donde el tiempo y la claridad son factores críticos, el diseño de dashboards que aprovechan atributos preatencionales puede facilitar decisiones más rápidas y precisas. Por ejemplo, destacar visualmente desviaciones importantes en KPIs puede reducir el tiempo de reacción ante eventos críticos. Diseños visuales bien estructurados que prioricen atributos detectables de forma automática ayudan a minimizar errores y a reducir la carga cognitiva.
+
+\section{Búsqueda visual: forma y color}
+
+\subsection{Fundamentos teóricos}
+La búsqueda visual es el proceso mediante el cual los usuarios localizan un objetivo específico dentro de un conjunto de estímulos visuales. Este proceso puede ser eficiente (paralelo) o ineficiente (serial), dependiendo de la naturaleza del objetivo y los distractores. La literatura en psicología cognitiva ha demostrado que atributos visuales como el color y la forma son determinantes en la velocidad y precisión de la búsqueda visual \parencite{treisman1980}.
+
+\subsection{Aplicación en visualización de datos}
+En el diseño de visualizaciones, comprender cómo el color y la forma afectan la búsqueda visual permite optimizar la organización de la información. Por ejemplo, destacar los valores extremos en un gráfico de dispersión con colores saturados o cambiar la forma de los marcadores de datos relevantes (círculo vs. triángulo) mejora la detección visual rápida. Además, la combinación de múltiples atributos visuales puede reforzar la diferenciación perceptual cuando hay muchas categorías o dimensiones \parencite{mackinlay1986}.
+
+\subsection{Evidencia empírica}
+Abdul-Rahman et al. \parencite{abdurrahman2023} demostraron que ciertas combinaciones de color y forma mejoran el rendimiento en tareas de búsqueda visual en pantalla, siendo las formas cuadradas y los colores primarios los más efectivos. Estos hallazgos se alinean con investigaciones anteriores que indican que la redundancia visual (usar forma y color juntos) incrementa la eficiencia en tareas visuales complejas \parencite{callahan2019}.
+
+\subsection{Implicaciones para la toma de decisiones en entornos de negocio}
+Los usuarios de dashboards empresariales frecuentemente necesitan identificar rápidamente indicadores clave, anomalías o tendencias. El uso estratégico del color y la forma puede guiar la atención hacia elementos relevantes, reduciendo el tiempo de búsqueda y aumentando la precisión. Esto es especialmente valioso en contextos de alta carga informativa o cuando el tiempo es crítico, como en la toma de decisiones operativas o de mercado.
+
+
+\section{Seguimiento ocular en la investigación de visualización}
+
+\subsection{Fundamentos teóricos}
+El seguimiento ocular (eye-tracking) es una técnica que permite registrar los movimientos de los ojos mientras una persona observa un estímulo visual. Se basa en el principio de que el punto de fijación refleja la atención visual, aunque no necesariamente el procesamiento cognitivo completo. A través del análisis de fijaciones, sacádicos y trayectorias, es posible inferir patrones de exploración visual y niveles de carga cognitiva \parencite{duchowski2017}.
+
+\subsection{Aplicación en visualización de datos}
+El eye-tracking se ha convertido en una herramienta clave para evaluar la usabilidad y efectividad de visualizaciones. Permite identificar áreas de interés (AOIs), tiempos de fijación, orden de exploración y regresiones. Esto es especialmente útil para comparar diferentes diseños de dashboards y optimizar la presentación de KPIs, alertas y elementos interactivos \parencite{burch2017}. También es utilizado para validar hipótesis sobre qué tipo de codificación visual dirige mejor la atención (por ejemplo, color vs. posición).
+
+\subsection{Evidencia empírica}
+Numerosos estudios han aplicado el seguimiento ocular en el análisis de visualizaciones. Por ejemplo, Bylinskii et al. \parencite{bylinskii2017} propusieron métricas basadas en fijaciones para evaluar la efectividad de diferentes tipos de gráficos a gran escala. Huang et al. \parencite{huang2022} analizaron un dashboard de pandemia mediante eye-tracking, encontrando que ciertos esquemas de color y estructura favorecen la comprensión inmediata de los datos críticos. Estos estudios muestran cómo el comportamiento visual está directamente relacionado con el diseño gráfico y la eficiencia cognitiva.
+
+\subsection{Implicaciones para la toma de decisiones en entornos de negocio}
+En entornos de negocio, donde el tiempo para analizar y actuar sobre los datos es limitado, utilizar evidencia de seguimiento ocular permite diseñar visualizaciones que maximizan la atención hacia los elementos clave. Esto puede derivar en una mejor comprensión de los indicadores, menor tiempo de análisis y menor probabilidad de omitir información crítica. Además, el eye-tracking permite personalizar interfaces basadas en patrones reales de uso, lo que mejora la experiencia y efectividad del usuario final.
+
+
+\section{Cognición visual e imágenes mentales}
+
+\subsection{Fundamentos teóricos}
+La cognición visual estudia cómo el cerebro procesa, interpreta y recuerda la información visual. Dentro de este campo, las imágenes mentales ocupan un lugar central: son representaciones internas de objetos, escenas o conceptos que no están físicamente presentes. Kosslyn \parencite{kosslyn1994} distingue entre dos tipos de representaciones mentales: las basadas en objetos (qué es) y las espaciales (dónde está), ambas esenciales para comprender gráficos y diagramas.
+
+\subsection{Aplicación en visualización de datos}
+Visualizar datos requiere transformar símbolos abstractos en estructuras espaciales comprensibles. Por ejemplo, interpretar un gráfico de líneas implica reconocer patrones de forma (objeto) y relaciones espaciales (tendencias, pendientes, intersecciones). Diseños que respetan la organización mental esperada —como ejes consistentes, escalas proporcionales y agrupamientos lógicos— facilitan la construcción de imágenes mentales útiles para el análisis \parencite{cleveland1984}.
+
+\subsection{Evidencia empírica}
+Kosslyn et al. \parencite{kosslyn2006} demostraron que las tareas que implican transformaciones espaciales activan áreas específicas del córtex visual, reforzando la idea de que los gráficos no se procesan sólo simbólicamente, sino mediante simulaciones visuales internas. En el campo de la visualización, estudios de Tversky et al. \parencite{tversky2002} mostraron que diagramas que respetan las convenciones espaciales y semánticas mejoran la comprensión y el recuerdo. Esto subraya la importancia del diseño visual alineado con las expectativas cognitivas.
+
+\subsection{Implicaciones para la toma de decisiones en entornos de negocio}
+La toma de decisiones basada en datos depende, en parte, de la capacidad del usuario para construir imágenes mentales precisas y manipulables. Visualizaciones bien diseñadas facilitan esta construcción y permiten realizar inferencias más complejas, como comparaciones hipotéticas o proyecciones. Por tanto, comprender los principios de la cognición visual es clave para crear entornos de análisis eficaces y accesibles.
+
+
+\printbibliography
+
+\end{document}
